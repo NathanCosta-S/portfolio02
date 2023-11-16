@@ -1,4 +1,3 @@
-
 .mode input {
     display: none;
 }
@@ -10,7 +9,7 @@
 
 .dark-mode .fundo-opc-2 {
     background: linear-gradient(-161.5deg, #664C9C 60%, #ffffff 60.5%);
-    height: 100vh;
+   
 }
 
 .dark-mode .header {
@@ -21,7 +20,6 @@
 
 .dark-mode .sobre {
     background-color: #fff;
-    height: 100vh;
     color: #000000;
 }
 
@@ -43,6 +41,3 @@
 .dark-mode .projeto{
     background: linear-gradient(-164.5deg, #fff 50%, #664C9C 50.7%);
 }
-
-/* background: linear-gradient(161.5deg, #664C9C 50%, #fff 50%);
-height: 100vh; */

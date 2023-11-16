@@ -1,41 +1,11 @@
-@media (max-width: 950px) {
+@media (max-width: 768px) {
     body {
         background-image: url('../image/fundo-mb.jpg');
+        overflow-x: hidden;
     }
 
-    .home {
-        display: grid;
-        flex-direction: column;
-        grid-template-columns: 1fr;
-        grid-template-rows: 1fr 1fr;
-        align-items: center;
-    }
-
-    .sobre{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-        margin: 0;
-    }
-    
-      .texto-sobre {
-        max-width: none; /* Remove a largura máxima para ocupar a largura total da tela */
-        margin: 10px; /* Ajusta a margem para telas pequenas */
-      }
-
-    .pc-sobre {
-        margin: 0;
-        padding: 0;
-        width: 50%;
-    }
-
-    .container {
-        margin-bottom: 20px;
-    }
-
-    .card {
-        width: 100%;
+    .footer {
+        display: none;
     }
 
     .header {
@@ -55,15 +25,29 @@
         color: #333;
     }
 
+    .home {
+        display: grid;
+        flex-direction: column;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+        align-items: center;
+    }
 
-    .habilidade, .habilidades {
-       
+
+    .sobre {
+        display: grid;
+        flex-direction: column;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+        align-items: center;
+    }
+
+    .habilidade,
+    .habilidades {
         display: flex;
         flex-direction: column;
         align-items: center;
         text-align: center;
-        margin: 0;
-
     }
 
     .projeto {
@@ -71,49 +55,39 @@
         flex-direction: column;
         align-items: center;
         text-align: center;
-        margin: 0;
     }
 
     .texto-projeto {
         text-align: center;
-
-    }
-
-
-
-    .container {
-        margin: 20px;
     }
 }
 
-
 @media (max-width: 425px) {
-    .home img {
-        width: 70%;
+    body {
+
+        overflow-x: hidden;
     }
-    .sobre{
-        padding: 0;
-        
-    }
-    .sobre img {
-        width: 60%;
-    }
-    .texto-sobre {
-    text-align: left;
-      }
+
     .card-habilidade {
         display: none;
     }
 
-    .projeto{
-       
+    .habilidade,
+    .habilidades {
+
         display: flex;
         flex-direction: column;
         align-items: center;
         text-align: center;
-        margin: 0;
     }
-    
+
+    .projeto,
+    .projetos {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
 
     .card-habilidade {
         max-width: 800px;
@@ -126,5 +100,4 @@
     .card-description {
         font-size: 14px;
     }
-
 }
