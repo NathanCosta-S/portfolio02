@@ -1,0 +1,44 @@
+.footer {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 200px;
+    height: 100%;
+    color: #000000;
+    padding: 20px;
+    animation: slideUp 5s forwards;
+    z-index: 2;
+  }
+  
+  @keyframes slideUp {
+    from {
+      top: 100%;
+    }
+
+    to {
+      top: 0;
+    }
+  }
+  
+  .divider {
+    width: 2px;    
+    height: 10.5%;
+    background-color: #000000;
+    position: absolute;
+    bottom: 0;
+    left: 33px; 
+  }
+  
+  .image-container {
+    position: absolute;
+    bottom: 0;
+    left: 25px;
+    transform: translateY(-61%);
+  }
+  
+  .image-container img {
+    width: 20px;
+    height: auto;
+    margin: 10px 0;
+    display: block;
+  }

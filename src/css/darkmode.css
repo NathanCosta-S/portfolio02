@@ -1,0 +1,48 @@
+
+.mode input {
+    display: none;
+}
+
+.dark-mode {
+    background-image: none;
+
+}
+
+.dark-mode .fundo-opc-2 {
+    background: linear-gradient(-161.5deg, #664C9C 60%, #ffffff 60.5%);
+    height: 100vh;
+}
+
+.dark-mode .header {
+    box-shadow: 0 4px 17px rgba(255, 255, 255, 0.31);
+
+}
+
+
+.dark-mode .sobre {
+    background-color: #fff;
+    height: 100vh;
+    color: #000000;
+}
+
+.dark-mode .projeto .texto-projeto {
+    color: rgb(0, 0, 0);
+}
+
+.dark-mode .pc-home {
+    background-color: #ffffff;
+    color: #000000;
+
+}
+
+.dark-mode .habilidade .texto-habilidade{
+    background-color: #fff;
+    color: #000000;
+}
+
+.dark-mode .projeto{
+    background: linear-gradient(-164.5deg, #fff 50%, #664C9C 50.7%);
+}
+
+/* background: linear-gradient(161.5deg, #664C9C 50%, #fff 50%);
+height: 100vh; */

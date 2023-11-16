@@ -1,0 +1,81 @@
+ .habilidades {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-around;
+   padding: 25px 200px;
+   
+ }
+
+ .texto-habilidade {
+   font-size: 25px;
+   text-align: center;
+   padding: 100px 0 0 0;
+   color: white;
+   font-family: 'Saira Stencil One', sans-serif;
+   font-weight: 400;
+ }
+
+ .card-habilidade {
+   position: relative;
+   width: 230px;
+   height: 150px;
+   background: linear-gradient(-45deg, #343335 0%, #5E02A7 100%);
+   border-radius: 20px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   overflow: hidden;
+   transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);
+   margin-bottom: 40px;
+ }
+
+ .card-habilidade img {
+   width: 100px;
+   fill: #333;
+   transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);
+ }
+
+ .card-habilidade:hover {
+   transform: rotate(-5deg) scale(1.1);
+   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+ }
+
+ .card-content {
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%) rotate(-45deg);
+   width: 100%;
+   height: 100%;
+   padding: 20px;
+   box-sizing: border-box;
+   background-color: #333;
+   opacity: 0;
+   transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);
+ }
+
+ .card-habilidade:hover .card-content {
+   transform: translate(-50%, -50%) rotate(0deg);
+   opacity: 1;
+ }
+
+ .card-title {
+   margin: 0;
+   font-size: 24px;
+   color: #ffffff;
+   font-family: 'Saira Stencil One', sans-serif;
+   font-weight: 400;
+ }
+
+ .card-description {
+   margin: 3px 0 0;
+   font-size: 14px;
+   color: #ffffff;
+   line-height: 1.3;
+
+ }
+
+ .card-habilidade:hover img {
+   scale: 0;
+   transform: rotate(-45deg);
+ }

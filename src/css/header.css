@@ -1,0 +1,34 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 20px;
+    align-items: center;
+    z-index: 2;
+}
+
+.logo {
+    margin: 0 100px;
+    transition: 1s ease-in-out;
+
+}
+
+.menu {
+    display: flex;
+}
+
+.menu li a {
+
+    padding: 4px 20px;
+    transition: border-color 0.3s;
+    transition: 1s ease-in-out;
+    color: #ffffff;
+    font-family: 'Saira Stencil One', sans-serif;
+    font-weight: 400;
+
+}
+
+.menu li a:hover {
+    border-top: 5px solid #000000;
+    border-bottom: 5px solid #000000;
+    transition: 0.4s ease-in-out;
+}
