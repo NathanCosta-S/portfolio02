@@ -58,6 +58,9 @@
 
 @media (max-width: 425px) {
 
+    .intro img{
+        width: 80%;
+    }
     .footer {
         display: none;
     }
