@@ -26,6 +26,6 @@
 - JAVASCRIPT
 - Controle de versão GIT
 
-💻 Página do projeto -  [Projeto Meu Portfolio](https://github.com/NathanCosta-S/portfolio02)
+💻 Página do projeto -  [Projeto Meu Portfolio](https://nathancosta-s.github.io/portfolio02/)
 
 🙋‍♂️ Perfil no LinkedIn - [Nathan Da Costa Silva](https://www.linkedin.com/in/nathan-da-costa-silva-1905b2292/)
