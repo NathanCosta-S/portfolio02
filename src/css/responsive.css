@@ -3,9 +3,6 @@
         background-image: url('../image/fundo-mb.jpg');
         overflow-x: hidden;
     }
-
-   
-
     .header {
         flex-direction: column;
     }
@@ -54,6 +51,7 @@
     .texto-projeto {
         text-align: center;
     }
+    
 }
 
 @media (max-width: 425px) {

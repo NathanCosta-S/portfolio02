@@ -17,6 +17,16 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 });
 
+document.addEventListener('DOMContentLoaded', function () {
+    var whatsappLink = document.getElementById('whatsapp');
+
+    whatsappLink.addEventListener('click', function (event) {
+        if (window.innerWidth <= 768) {
+            event.preventDefault(); 
+            window.location.href = 'https://wa.me/55014996450887 ' , '_balck';
+        }
+    });
+});
 
 let animacaoAtivada = false;
 const sobreTexto = document.getElementById("sobretexto");
