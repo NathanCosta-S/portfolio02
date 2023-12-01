@@ -21,9 +21,12 @@ document.addEventListener('DOMContentLoaded', function () {
     var whatsappLink = document.getElementById('whatsapp');
 
     whatsappLink.addEventListener('click', function (event) {
-        if (window.innerWidth <= 768) {
-            event.preventDefault(); 
-            window.location.href = 'https://wa.me/55014996450887 ' , '_balck';
+        const larguraJanela = window.innerWidth;
+
+        if (larguraJanela < 768) {
+            window.open('https://wa.me/5514996450887', '_blank');
+        } else {
+            window.open('https://web.whatsapp.com/send?phone=5514996450887', '_blank');
         }
     });
 });
