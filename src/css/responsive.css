@@ -51,9 +51,7 @@
     .texto-projeto {
         text-align: center;
     }
-    .footer{
-        display: none;
-    }
+   
 }
 
 @media (max-width: 425px) {
