@@ -86,6 +86,21 @@
   transition: 0.5s ease-in-out;
 }
 
+.container .card4:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('../image/projetos/card4.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  clip-path: circle(150px at 80% 20%);
+  transition: 0.5s ease-in-out;
+}
+
 
 
 .container .card-projeto:hover:before {
