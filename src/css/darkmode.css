@@ -1,43 +1,43 @@
 .mode input {
-    display: none;
+  display: none;
 }
 
 .dark-mode {
-    background-image: none;
-
+  background-image: none;
 }
 
 .dark-mode .fundo-opc-2 {
-    background: linear-gradient(-161.5deg, #664C9C 60%, #ffffff 60.5%);
-   
+  background: linear-gradient(-161.5deg, #664c9c 60%, #ffffff 60.5%);
 }
 
 .dark-mode .header {
-    box-shadow: 0 4px 17px rgba(255, 255, 255, 0.31);
-
+  box-shadow: 0 4px 17px rgba(255, 255, 255, 0.31);
 }
 
-
 .dark-mode .sobre {
-    background-color: #fff;
-    color: #000000;
+  background-color: #fff;
+  color: #000000;
 }
 
 .dark-mode .projeto .texto-projeto {
-    color: rgb(0, 0, 0);
+  color: rgb(0, 0, 0);
 }
 
 .dark-mode .pc-home {
-    background-color: #ffffff;
-    color: #000000;
-
+  background-color: #ffffff;
+  color: #000000;
 }
 
-.dark-mode .habilidade .texto-habilidade{
-    background-color: #fff;
+.dark-mode .habilidade .texto-habilidade  {
+  background-color: #fff;
+  color: #000000;
+}
+.dark-mode .art .card__text{
     color: #000000;
 }
-
-.dark-mode .projeto{
-    background: linear-gradient(-164.5deg, #fff 50%, #664C9C 50.7%);
+.dark-mode .texto-art{
+    color: #000000;
+}
+.dark-mode .art {
+  background: linear-gradient(-164.5deg, #fff 50%, #664c9c 50.7%);
 }

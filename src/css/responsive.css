@@ -1,96 +1,90 @@
 @media (max-width: 768px) {
-    body {
-        background-image: url('../image/fundo-mb.jpg');
-        overflow-x: hidden;
-    }
-    .header {
-        flex-direction: column;
-    }
+  body {
+    background-image: url("../image/fundo-mb.jpg");
+    overflow-x: hidden;
+  }
+  .header {
+    flex-direction: column;
+  }
 
-    .menu {
-        margin-top: 10px;
-    }
+  .menu {
+    margin-top: 10px;
+  }
 
-    .menu li {
-        display: block;
-        margin-bottom: 10px;
-    }
+  .menu li {
+    display: block;
+    margin-bottom: 10px;
+  }
 
-    .menu a {
-        color: #333;
-    }
+  .menu a {
+    color: #333;
+  }
 
-    .home {
-        display: grid;
-        flex-direction: column;
-        grid-template-columns: 1fr;
-        grid-template-rows: 1fr 1fr;
-        align-items: center;
-    }
+  .home {
+    display: grid;
+    flex-direction: column;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    align-items: center;
+  }
 
-    .sobre .texto-sobre{
-        text-align: center;   
-    }
- 
+  .sobre .texto-sobre {
+    text-align: center;
+  }
 
-    .habilidade,
-    .habilidades {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-    }
+  .habilidade,
+  .habilidades {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
 
-    .projeto {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-    }
+  .projeto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
 
-    .texto-projeto {
-        text-align: center;
-    }
-   
+  .texto-projeto {
+    text-align: center;
+  }
 }
 
 @media (max-width: 425px) {
+  .intro img {
+    width: 80%;
+  }
+  .footer {
+    display: none;
+  }
 
-    .intro img{
-        width: 80%;
-    }
-    .footer {
-        display: none;
-    }
+  .card-habilidade {
+    display: none;
+  }
 
-    .card-habilidade {
-        display: none;
-    }
+  .habilidade,
+  .habilidades {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
 
-    .habilidade,
-    .habilidades {
+  .projeto,
+  .projetos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
 
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-    }
+  .card-title {
+    font-size: 16px;
+  }
 
-    .projeto,
-    .projetos {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-    }
-
-   
-
-    .card-title {
-        font-size: 16px;
-    }
-
-    .card-description {
-        font-size: 14px;
-    }
+  .card-description {
+    font-size: 14px;
+  }
 }

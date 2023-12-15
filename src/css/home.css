@@ -1,21 +1,16 @@
-:root {
-  --primary-color: #5E02A7;
-  --secondary-color: #5e2fde;
-}
 .home {
   display: flex;
   align-items: center;
   justify-content: space-around;
   padding: 190px 40px;
-  color: rgb(255, 255, 255);  
+  color: rgb(255, 255, 255);
 }
 
 .texto-home {
   font-size: 90px;
   white-space: nowrap;
   overflow: hidden;
-  animation: typewriter 2s steps(13),
-    blink 800ms steps(13) infinite normal;
+  animation: typewriter 2s steps(13), blink 800ms steps(13) infinite normal;
   border-right: 5px solid rgb(255, 255, 255);
 }
 
@@ -42,7 +37,6 @@
 .Information {
   display: flex;
   flex-direction: column;
-
 }
 
 .social {
@@ -70,14 +64,13 @@
   background-color: #5e2fde;
   box-shadow: 0 0 20px #9d1aa4;
   border-color: #ffffff;
-  transition: all .3s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 
 #linkedin,
 #instagram,
 #github,
 #whatsapp {
-
   animation: animate 3s linear infinite;
   text-shadow: 0 0 50px #0072ff, 0 0 100px #0072ff, 0 0 150px #0072ff,
     0 0 200px #0072ff;
@@ -118,7 +111,7 @@
   font-weight: bold;
   color: rgb(255, 255, 255);
   border: 0;
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   text-align: center;
 }
 
@@ -136,12 +129,10 @@
 @keyframes slideFromLeft {
   0% {
     left: -100%;
-
   }
 
   100% {
     left: 0;
-
   }
 }
 #whatsapp {
@@ -150,7 +141,7 @@
 .cv-btn:hover {
   background-color: #ffffff;
   box-shadow: 0 0 10px #9d1aa4;
-  transition: all .3s ease-in-out;
+  transition: all 0.3s ease-in-out;
   color: #000000;
 }
 
@@ -165,13 +156,11 @@
   background-clip: none;
   background-position: -500px 0;
   animation: backcolor 3.5s linear infinite;
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   font-weight: 800;
-
 }
 
 @-webkit-keyframes backcolor {
-
   100% {
     -webkit-text-stroke: 1px #562a58;
     background-position: 0 0;

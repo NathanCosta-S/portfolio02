@@ -3,9 +3,8 @@
   flex-wrap: wrap;
   justify-content: space-around;
   padding: 25px 0px;
-  font-family: 'Saira Stencil One', sans-serif;
+  font-family: "Saira Stencil One", sans-serif;
   font-weight: 400;
-
 }
 
 .texto-projeto {
@@ -13,26 +12,21 @@
   text-align: center;
   padding: 100px 0 0 0;
   color: rgb(255, 255, 255);
-  font-family: 'Saira Stencil One', sans-serif;
+  font-family: "Saira Stencil One", sans-serif;
   font-weight: 400;
 }
 
-
-
 .pulsar2 {
   animation: pulsar2 1s infinite alternate ease-in-out;
-
 }
 
 @-webkit-keyframes pulsar2 {
   0% {
     -webkit-transform: translateY(1em);
-
   }
 
   100% {
     -webkit-transform: translateY(0);
-
   }
 }
 
@@ -44,56 +38,55 @@
   position: relative;
   width: 300px;
   height: 350px;
-  background: linear-gradient(-45deg, #000000 20%, #5E02A7 100%);
+  background: linear-gradient(-45deg, #000000 20%, #5e02a7 100%);
   border-radius: 20px;
   overflow: hidden;
-
 }
 
 .container .card-projeto:before {
-  content: '';
+  content: "";
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  background: #FF9A6C;
+  background: #ff9a6c;
   clip-path: circle(150px at 80% 20%);
   transition: 0.5s ease-in-out;
 }
 
 .container .card2:before {
-  content: '';
+  content: "";
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: url('../image/projetos/parede.jpg');
+  background-image: url("../image/projetos/parede.jpg");
   clip-path: circle(150px at 80% 20%);
   transition: 0.5s ease-in-out;
 }
 
 .container .card3:before {
-  content: '';
+  content: "";
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: url('../image/projetos/fundo.jpg');
+  background-image: url("../image/projetos/fundo.jpg");
   clip-path: circle(150px at 80% 20%);
   transition: 0.5s ease-in-out;
 }
 
 .container .card4:before {
-  content: '';
+  content: "";
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: url('../image/projetos/card4.jpg');
+  background-image: url("../image/projetos/card4.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -101,21 +94,17 @@
   transition: 0.5s ease-in-out;
 }
 
-
-
 .container .card-projeto:hover:before {
   clip-path: circle(300px at 80% -20%);
 }
 
 .container .card-projeto:after {
-  content: '';
+  content: "";
   position: absolute;
   top: 30%;
   left: -20%;
   font-size: 12em;
   font-weight: 800;
-
-
 }
 
 .container .card-projeto .imgBx {
@@ -131,7 +120,6 @@
 .container .card-projeto:hover .imgBx {
   top: 0%;
   transform: translateY(0%);
-
 }
 
 .container .card-projeto .imgBx img {
@@ -181,7 +169,6 @@
   opacity: 1;
   visibility: visible;
   transition-delay: 0.5s;
-
 }
 
 .container .card-projeto:hover .contentBx .color {
@@ -198,7 +185,7 @@
   text-transform: uppercase;
   letter-spacing: 2px;
   margin-right: 10px;
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   font-weight: 800;
 }
 
@@ -216,7 +203,6 @@
   color: #111;
   border-radius: 4px;
   cursor: pointer;
-
 }
 
 .container .card-projeto .contentBx a {
@@ -239,5 +225,4 @@
   transform: translateY(0px);
   transition-delay: 0.75s;
   margin-top: 10px;
-
 }

@@ -1,0 +1,11 @@
+:root {
+    --text-light: rgba(255, 255, 255, 0.6);
+    --spacing-s: 8px;
+    --spacing-m: 16px;
+    --spacing-l: 24px;
+    --spacing-xl: 32px;
+    --spacing-xxl: 64px;
+    --width-container: 1200px;
+    --primary-color: #5E02A7;
+    --secondary-color: #5e2fde;
+  }
