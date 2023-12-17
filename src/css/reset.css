@@ -1,26 +1,64 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Raleway:wght@400;500;600;800&family=Saira+Stencil+One&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Raleway:wght@400;500;600;800&family=Saira+Stencil+One&display=swap");
 
-body{
-    background-image: url('../image/fundo.jpg') ;
-     background-size: cover;
+body {
+  background-image: url("../image/fundo.jpg");
+  background-size: cover;
   background-position: center;
   background-attachment: fixed;
   background-repeat: no-repeat;
+  overflow-x: hidden;
 }
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 ul {
-    list-style: none;
+  list-style: none;
 }
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
-img{
-    max-width: 100%;
-} 
+img {
+  max-width: 100%;
+}
 
 
+
+.anima-art {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 5s, transform 5s;
+}
+.show-art{
+    opacity: 1;
+    transform: translateY(0);
+}
+
+
+
+/* 
+.anima-section,
+.anima-section2,
+.anima-section3 {
+    opacity: 0;
+    transform: translateY(-20px);
+    transition: opacity 5s, transform 5s;
+}
+
+.anima-section.show,
+.anima-section2.show,
+.anima-section3.show {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.anima-section2 {
+    transform-origin: left;
+    transform: translateX(-20px);
+}
+.anima-section3 {
+    transform-origin: left;
+    transform: translateX(-20px);
+} */

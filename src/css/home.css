@@ -120,10 +120,10 @@
   overflow: hidden;
 }
 
-.img-perfil img {
+.img-perfil  {
   position: relative;
   left: -100%;
-  animation: slideFromLeft 3s ease-in-out forwards;
+  animation: slideFromLeft 4s ease-in-out forwards;
 }
 
 @keyframes slideFromLeft {

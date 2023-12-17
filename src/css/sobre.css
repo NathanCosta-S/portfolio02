@@ -3,19 +3,29 @@
   flex-direction: column;
   align-items: center;
   text-align: center;
-  padding: 15px;
+  padding: 20px;
   background-color: #ffffff;
   z-index: 3;
   color: black;
+  margin-top: 190px;
+}
+.anima-sobre {
+  opacity: 0;
+  transform: translateX(20px);
+  transition: opacity 5s, transform 5s;
+}
+.show-sobre {
+  opacity: 1;
+  transform: translateX(0);
 }
 
 .texto-sobre {
   font-size: 24px;
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   font-weight: 400;
   line-height: 40px;
   text-align: center;
-
+  padding-bottom: 100px;
 }
 
 .title-sobre {
@@ -23,14 +33,13 @@
   margin-bottom: 10px;
   text-align: center;
   transition: 6s;
-  font-family: 'Saira Stencil One', sans-serif;
+  font-family: "Saira Stencil One", sans-serif;
   font-weight: 400;
   column-span: all;
   display: block;
 }
 
-
- @-webkit-keyframes fadeIn {
+@-webkit-keyframes fadeIn {
   0% {
     opacity: 0;
   }
@@ -40,14 +49,12 @@
   }
 }
 
-
 .pc-sobre {
   display: flex;
   align-items: center;
   justify-content: center;
 
   background-color: #ffffff;
-
 }
 
 .pulsar {
@@ -59,11 +66,9 @@
 @-webkit-keyframes pulsar {
   0% {
     -webkit-transform: translateY(0.4em);
-
   }
 
   100% {
     -webkit-transform: translateY(0);
-
   }
 }

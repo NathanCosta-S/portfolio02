@@ -7,6 +7,17 @@
   font-weight: 400;
 }
 
+.anima-projeto{
+  opacity: 0;
+  transform: translateY(60px);
+  transition: opacity 5s, transform 5s;
+}
+
+.show-projeto{
+  opacity: 1;
+  transform: translateY(0);
+}
+
 .texto-projeto {
   font-size: 25px;
   text-align: center;
