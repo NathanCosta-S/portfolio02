@@ -9,15 +9,6 @@
   color: black;
   margin-top: 190px;
 }
-.anima-sobre {
-  opacity: 0;
-  transform: translateX(20px);
-  transition: opacity 5s, transform 5s;
-}
-.show-sobre {
-  opacity: 1;
-  transform: translateX(0);
-}
 
 .texto-sobre {
   font-size: 24px;
