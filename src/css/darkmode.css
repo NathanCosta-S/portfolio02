@@ -28,16 +28,15 @@
   color: #000000;
 }
 
-.dark-mode .habilidade .texto-habilidade  {
+.dark-mode .habilidade .texto-habilidade {
   background-color: #fff;
   color: #000000;
 }
-.dark-mode .art .card__text{
-    color: #000000;
-}
+
 .dark-mode .texto-art{
-    color: #000000;
+  color: #000000;
 }
+
 .dark-mode .art {
-  background: linear-gradient(-164.5deg, #fff 50%, #664c9c 50.7%);
+  background: linear-gradient(-164.5deg, #fff 56%, #664c9c 50.7%);
 }

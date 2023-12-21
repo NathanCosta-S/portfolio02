@@ -27,6 +27,8 @@
   font-weight: 400;
 }
 
+
+
 .pulsar2 {
   animation: pulsar2 1s infinite alternate ease-in-out;
 }
@@ -161,6 +163,9 @@
   letter-spacing: 1px;
   color: #fff;
   margin: 0;
+}
+.container .card-projeto .contentBx p{
+  color: red;
 }
 
 .container .card-projeto .contentBx .size,
