@@ -63,20 +63,16 @@ darkbtn.addEventListener('change', () => {
 });
 
 document.addEventListener("DOMContentLoaded", function () {
-    var animaSobre = document.querySelector(".anima-sobre");
+  
     var animaHabilidade = document.querySelector(".anima-habilidade");
     var animaProjeto = document.querySelector(".anima-projeto");
     var animaArt = document.querySelector(".anima-art");
 
     function checkScroll() {
-        var positionFromSobre = animaSobre.getBoundingClientRect().top;
+      
         var positionFromTopHabalidade = animaHabilidade.getBoundingClientRect().top;
         var positionFromProjeto = animaProjeto.getBoundingClientRect().top;
         var positionFromArt = animaArt.getBoundingClientRect().top;
-
-        if (positionFromSobre - window.innerHeight < 0) {
-            animaSobre.classList.add("show-sobre");
-        }
 
         if (positionFromTopHabalidade - window.innerHeight < 0) {
             animaHabilidade.classList.add("show-habilidade");
