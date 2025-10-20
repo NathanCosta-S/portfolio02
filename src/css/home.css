@@ -121,6 +121,7 @@
 }
 
 .img-perfil  {
+  width: 80%;
   position: relative;
   left: -100%;
   animation: slideFromLeft 4s ease-in-out forwards;
